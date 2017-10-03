@@ -1,0 +1,156 @@
+*{
+  border: 1px solid black;
+}
+html {
+	background-color: white;
+        width: 100%;
+        height: 100%;
+}
+img {
+	float: left;
+	position: relative;
+	border: none;
+}
+
+body {
+	margin-left: 1,5vw;
+	margin-right: 1,5vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	border: 1px solid black;
+	background-image:url('4.jpg');
+	border-radius: 5px;
+	background-attachment: fixed;
+}
+
+h1 {
+	padding-left: 2%;
+	padding-right: 8%;
+	padding-top: 2%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4vw;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 3%;
+	padding-bottom: 1%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size; 2,5vw;
+	color: black;
+	text-align: center;
+}
+
+p {
+	padding-top: 3%;
+	padding-bottom: 5%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1,9vw;
+	text-align: center;
+	line-height: 2vw;
+}
+
+div.buttons1 {
+	padding-top: 6%;
+	padding-bottom: 5%;
+	text-align: center;
+	background-color: none;
+	color: black;
+	border: none;
+	border-radius: 12px;
+	position: relative;
+} 
+
+input[type="button"] {
+	width: 15%;
+	height: 15%;
+	font-size: 2vw;
+	border-radius: 12px;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;  
+ }
+ 
+ .container {
+ 	position: relative;
+ 	background-color: white;
+ 	border-radius: 5px;
+ 	max-width: 70vw;
+ 	min-height: 50vw;
+ 	margin-left: 20%;
+ }
+
+.toppmeny {
+	margin-top: 5%;
+	margin-right: 10%;
+	border-bottom: 1px solid black;
+	list-style-type: none;
+	margin-left: 22%;
+	top-padding: 20px;
+	overflow: hidden;
+	background-color: none;
+	
+}
+.toppmeny li {
+	float: left;
+	margin: 1%;
+}
+.toppmeny li a {
+	font-size: 2vw;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 0,6vw;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+}
+.toppmeny li a:hover {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+.toppmeny li a.active {
+	color: black;
+	background-color: none;
+}
+    
+.sidemeny, .sidemenyProg {
+	position: absolute;
+	max-width: 210px;
+        padding-top: 30px;
+        float: left;
+        min-height: 500px;
+}
+    
+.sidemeny a, .sidemenyProg a {
+    	background-color: none;
+    	color: black;
+    	display: block;
+    	padding: 12px;
+    	text-decoration: none;
+    	font-family: Arial, Helvetica, sans-serif;
+    	font-size: 1,5vw;
+	letter-spacing: 0,5vw;
+	max-width: 215px;
+	min-height: none;
+}
+    	
+.sidemeny a:hover {
+    	background-color: rgba(255, 0, 0, 0.4);
+}
+.sidemenyProg a:hover {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+
+    	
+.sidemeny li a active {
+    	color: black;
+    	background-color: none;
+}
+.sidemenyProg li a active {
+	color: black;
+	background-color: none;
+}

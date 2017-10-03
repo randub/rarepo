@@ -1,0 +1,16 @@
+body {
+background-image:url('4.jpg');
+background-attachment: fixed;
+}
+
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+color: black;
+text-align: center;
+
+}
+
+nav {
+text-align: center;
+}
